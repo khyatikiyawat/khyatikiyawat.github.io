@@ -1,2 +1,1 @@
-# khyatikiyawat.github.io
-My personal website
+Khyati Kiyawat
