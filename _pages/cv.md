@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.Tech. in Electronics and COmmunication Engineering, Indian Institute of Technology Roorkee, 2020
+* B.Tech., Electronics & Communication Engineering, Indian Institute of Technology (IIT) Roorkee, 2020
 * Ph.D in Computer Architecture, University of Virginia, 2027 (expected)
 
 Work experience
