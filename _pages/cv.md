@@ -16,16 +16,17 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Jul 2020 - Jul 2022: Digital Design Engineer
+   * Texas Instruments
+    
+* Dec 2019 - Feb 2020: Research Project Intern
+   * Nagoya University
+     
+* May - July 2019: Summer Intern
+   * Texas Instruments
+
+
 Skills
 ======
 * Skill 1
@@ -55,4 +56,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Co-organizing Systems-Interest-Group meetings to facilitate collaboration and discussions spanning across systems research at the University of Virginia.
