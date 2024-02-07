@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student advised by Prof. Kevin Skadron at the Computer Science Department, University of Virginia. My research focuses on acceleration using intelligent memory systems, and enabling the adoption of Processing in memory (PiM) architectures.
+I am a PhD student advised by Prof. Kevin Skadron at the Computer Science Department, University of Virginia. My research focuses on acceleration using intelligent memory systems, and enabling the adoption of Processing in memory (PIM) architectures.
 
-You can find my resume [here](https://ieeexplore.ieee.org/document/10161702)
+You can find my resume [here](/files/Khyati_Kiyawat_UVA.pdf)
 
 <!---
 A data-driven personal website
