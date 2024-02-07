@@ -10,6 +10,8 @@ redirect_from:
 
 I am a PhD student advised by Prof. Kevin Skadron at the Computer Science Department, University of Virginia. My research focuses on acceleration using intelligent memory systems, and enabling the adoption of Processing in memory (PiM) architectures.
 
+You can find my resume [here](https://ieeexplore.ieee.org/document/10161702)
+
 <!---
 A data-driven personal website
 ======
