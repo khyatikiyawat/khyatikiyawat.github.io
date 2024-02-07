@@ -12,6 +12,7 @@ I am a PhD student advised by Prof. Kevin Skadron at the Computer Science Depart
 
 You can find my resume [here](/files/Khyati_Kiyawat_UVA.pdf)
 
+<!---
 ---
 layout: archive
 title: "CV"
@@ -20,6 +21,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+--->
 
 {% include base_path %}
 
