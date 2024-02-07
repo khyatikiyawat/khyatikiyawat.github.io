@@ -8,10 +8,11 @@ venue: 'IEEE TVLSI'
 paperurl: ''
 citation: 'A. Verma, K. Kiyawat, B. P. Das and P. K. Meher, "An Efficient Scaling-Free Folded Hyperbolic CORDIC Design Using a Novel Low-Complexity Power-of-2 Taylor Series Approximation," in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 31, no. 8, pp. 1167-1177, Aug. 2023.'
 ---
-<!---
-This paper is about the number 2. The number 3 is left for future work.
 
 [Download paper here]([http://academicpages.github.io/files/An_Efficient_Scaling-Free_Folded_Hyperbolic_CORDIC_Design_Using_a_Novel_Low-Complexity_Power-of-2_Taylor_Series_Approximation.pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10161702))
+
+<!---
+This paper is about the number 2. The number 3 is left for future work.
 
 Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
 --->
