@@ -30,7 +30,7 @@ Education
 * B.Tech., Electronics & Communication Engineering, Indian Institute of Technology (IIT) Roorkee, 2020
 * Ph.D in Computer Architecture, University of Virginia, 2027 (expected)
 
-Work experience
+<!--- Work experience
 ======
 
 * Jul 2020 - Jul 2022: Digital Design Engineer
@@ -41,6 +41,7 @@ Work experience
      
 * May - July 2019: Summer Intern
    * Texas Instruments
+--->
 
 <!---
 Skills
