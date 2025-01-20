@@ -33,7 +33,7 @@ Education
 Work experience
 ======
 * Processor Architecture Research Lab, Intel labs, India
-   * I have worked with Shankar Balachandran, Anant V. Nori, Sreenivas Subramoney on GenAi workload instrumention and characterizing framework
+   * I worked with Shankar Balachandran, Anant V. Nori, Sreenivas Subramoney on GenAI workload instrumention and characterizing framework
    * May 2024 - Jan 2025
 
 * Digital Design Engineer, Texas Instruments, India
