@@ -32,27 +32,24 @@ Education
 
 Work experience
 ======
-* Processor Architecture Research Lab
-   * Intel labs, India
-   * Worked with Shankar Balachandran, Anant V. Nori, Sreenivas Subramoney
+* Processor Architecture Research Lab, Intel labs, India
+   * I have worked with Shankar Balachandran, Anant V. Nori, Sreenivas Subramoney on GenAi workload instrumention and characterizing framework
    * May 2024 - Jan 2025
 
-* Digital Design Engineer
-   * Texas Instruments, India
+* Digital Design Engineer, Texas Instruments, India
+   * I was part of the Design Verification team for C2000 (high-end industry and automotive) microcontrollers
    * Jul 2020 - Jul 2022
     
-* Research Project Intern
-   * Nagoya University, Japan
-   * Worked with Prof. Tohru Ishihara
-   * Dec 2019 - Feb 2020
-     
-* Undergraduate Summer Intern
-   * Texas Instruments, India
+* Research Project Intern, Nagoya University, Japan
+   * I was advised by Prof. Tohru Ishihara to work on Power Optimization techniques on RISC-V Pulpino processors
    * Dec 2019 - Feb 2020
 
-* Research Project Intern
-   * IIT Bombay, Japan
-   * Worked with Prof. Maryam S. Baghini
+* Digital Design Engineer, Texas Instruments, India
+   * I worked with C2000 RTL team to automate RTL generation for various memory-mapped register IPs
+   * April 2019 - Jul 2019
+     
+* Research Project Intern, IIT Bombay, India
+   * I was advised by Prof. Maryam S. Baghini to develop a prototype for object sensing using CNN
    * April 2018 - Jun 2018
 
 <!---
