@@ -244,7 +244,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+  # _work_exp
+  - scope:
+      path: ""
+      type: work_exp
+    values:
+      layout: work_exp
+      author_profile: true
+      share: true
 # Sass/SCSS
 sass:
   sass_dir: _sass
