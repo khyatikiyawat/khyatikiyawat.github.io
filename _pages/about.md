@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Home"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -30,18 +30,30 @@ Education
 * B.Tech., Electronics & Communication Engineering, Indian Institute of Technology (IIT) Roorkee, 2020
 * Ph.D in Computer Architecture, University of Virginia, 2027 (expected)
 
-<!--- Work experience
+--- Work experience
 ======
+* Processor Architecture Research Lab
+   * Intel labs, India
+   * Worked with Shankar Balachandran, Anant V. Nori, Sreenivas Subramoney
+   * May 2024 - Jan 2025
 
-* Jul 2020 - Jul 2022: Digital Design Engineer
-   * Texas Instruments
+* Digital Design Engineer
+   * Texas Instruments, India
+   * Jul 2020 - Jul 2022
     
-* Dec 2019 - Feb 2020: Research Project Intern
-   * Nagoya University
+* Research Project Intern
+   * Nagoya University, Japan
+   * Worked with Prof. Tohru Ishihara
+   * Dec 2019 - Feb 2020
      
-* May - July 2019: Summer Intern
-   * Texas Instruments
---->
+* Undergraduate Summer Intern
+   * Texas Instruments, India
+   * Dec 2019 - Feb 2020
+
+* Research Project Intern
+   * IIT Bombay, Japan
+   * Worked with Prof. Maryam S. Baghini
+   * April 2018 - Jun 2018
 
 <!---
 Skills
