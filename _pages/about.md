@@ -52,11 +52,6 @@ Work experience
    * I was advised by Prof. Maryam S. Baghini to develop a prototype for object sensing using CNN
    * April 2018 - Jun 2018
 
-Trial
-=====
-  <ul>{% for post in site.work_exp %}
-      {% include archive-single--cv.html %}
-  {% endfor %}</ul>
 
 <!---
 Skills
