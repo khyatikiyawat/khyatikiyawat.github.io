@@ -55,7 +55,7 @@ Work experience
 Trial
 =====
   <ul>{% for post in site.work_exp %}
-      {% include archive-single-talk-cv.html %}
+      {% include archive-single--cv.html %}
   {% endfor %}</ul>
 
 <!---
