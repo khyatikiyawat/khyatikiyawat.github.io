@@ -87,8 +87,8 @@ Teaching
   
 Service and leadership
 ======
-* Co-organizing Systems-Interest-Group meetings to facilitate collaboration and discussions spanning across systems research at the University of Virginia.
-
+* I co-organized Systems-Interest-Group meetings to facilitate collaboration and discussions across CS systems research at the University of Virginia. (2022-2024)
+* I was a reviewer for ISCA 2024 Artifact Evaluation
 
 <!---
 A data-driven personal website
