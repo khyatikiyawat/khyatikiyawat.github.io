@@ -1,0 +1,13 @@
+{% include base_path %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <li>
+      <h3 class="archive__item-title" itemprop="headline">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+      </h3>
+      <p class="page__meta">{{ post.venue }}, {{ post.location }} | {{ post.date_start }} – {{ post.date_end }}</p>
+      {% if post.description %}<p class="archive__item-excerpt" itemprop="description">{{ post.description }}</p>{% endif %}
+    </li>
+  </article>
+</div>

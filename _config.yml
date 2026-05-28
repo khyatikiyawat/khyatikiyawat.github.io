@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "Khyati Kiyawat"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Khyati Kiyawat"
 description              : &description "personal description"
 url                      : https://khyatikiyawat.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io" # i updated from academicpages.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "khyatikiyawat/khyatikiyawat.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -187,6 +187,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  work_exp:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -249,7 +252,7 @@ defaults:
       path: ""
       type: work_exp
     values:
-      layout: work_exp
+      layout: single
       author_profile: true
       share: true
 # Sass/SCSS
