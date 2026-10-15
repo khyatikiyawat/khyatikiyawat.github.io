@@ -3,26 +3,24 @@
 #   text:  one line; Markdown allowed (links, **bold**, etc.)
 #   link:  optional URL; link_text is the label shown after the text
 #   image: optional photo under the item, e.g. /images/news/wicarch-meetup.jpg
-#
-# TODO: replace the [placeholders] below with real dates, venues and links.
 
-- date: "[Mon 2026]"
-  text: "Recognized by the **Semiconductor Research Corporation (SRC)** in its Student Spotlight."
-  link: "[LinkedIn post URL]"
-  link_text: "LinkedIn"
+- date: "Sep 2026"
+  text: "Recognized by the **Semiconductor Research Corporation (SRC)** through its Student Spotlight."
+  # link: ""   # TODO: LinkedIn post URL
+  # link_text: "LinkedIn"
 
 - date: "Aug 2026"
-  text: "Wrapped up my research internship at **Samsung Semiconductor** (Memory Solutions Lab), where my project received the *Most Memorable Internship Project* recognition."
+  text: "Organized the **WiCArch Bay Area meetup**."
+  # image: ""  # TODO: meetup photo
 
-- date: "[Mon 2026]"
-  text: "Presented at the **ORNL AI Core University Workshop** on [talk topic]."
+- date: "Aug 2026"
+  text: "Wrapped up my research internship at **Samsung Semiconductor**; my project won *Most Memorable Internship Project* at the Intern Showcase."
 
-- date: "[Mon 2026]"
-  text: "Presented [paper/poster title] at **ISPASS 2026**."
+- date: "2026"
+  text: "Presented *Reimagining LLM Inference with Memory-Centric Servers* at the **ORNL Core Universities AI Workshop**."
 
-- date: "[Mon 2026]"
-  text: "Hosted the **WiCArch** (Women in Computer Architecture) meetup at [venue]."
-  # image: /images/news/wicarch-meetup.jpg
+- date: "2026"
+  text: "Presented *HARMONI: Hierarchical Architecture Modeling for LLMs with Near/In Memory Computing* at **ISPASS 2026**."
 
-- date: "[Mon 2026]"
-  text: "Organizing **CASA CALM** [workshop/event details]."
+- date: "2025"
+  text: "Joined the **CASA** steering committee, leading the Computer Architecture Long-term Mentorship (**CALM**) program."
