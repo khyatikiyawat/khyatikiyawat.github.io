@@ -350,8 +350,13 @@
 }
 
 /*
-   Homepage news list
+   Homepage (about me + news)
    ========================================================================== */
+
+.page__content .home-intro p {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
 
 .news {
   list-style: none;
@@ -359,40 +364,82 @@
   padding: 0;
 }
 
-.news__item {
+.page__content .news__item {
   display: flex;
-  gap: 1em;
-  padding: 0.45em 0;
-  border-bottom: 1px solid $border-color;
-  font-size: 0.9em;
-  line-height: 1.45;
+  align-items: center;
+  gap: 0.75em;
+  margin: 0;
+  padding: 0.35em 0;
+  font-size: 0.8em;
+  line-height: 1.4;
+}
 
-  &:last-child {
-    border-bottom: none;
+.news__thumb {
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease;
   }
 
-  @media (max-width: $small) {
-    flex-direction: column;
-    gap: 0.1em;
+  &:hover img {
+    transform: scale(1.08);
   }
 }
 
-.news__date {
-  flex: 0 0 6.5em;
-  font-weight: bold;
-  white-space: nowrap;
+a.news__thumb {
+  border: 1px solid $border-color;
 }
 
-.news__body {
+.news__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95em;
+  color: $gray;
+  background: $lighter-gray;
+
+  &--award      { color: #b7791f; background: #fdf3dc; }
+  &--talk       { color: #2b6cb0; background: #e3eefa; }
+  &--paper      { color: #2f855a; background: #e2f4ea; }
+  &--internship { color: #6b46c1; background: #ece6fa; }
+  &--service    { color: #c05621; background: #fbe9dc; }
+  &--event      { color: #b83280; background: #fae3ef; }
+}
+
+.news__text {
   flex: 1 1 auto;
   min-width: 0;
 }
 
-.news__image {
-  display: block;
-  max-width: 100%;
-  max-height: 220px;
-  width: auto;
-  margin-top: 0.5em;
-  border-radius: 4px;
+.news__link {
+  margin-left: 0.2em;
+  text-decoration: none;
+}
+
+.news__date {
+  margin-left: 0.2em;
+  color: $gray;
+  white-space: nowrap;
+}
+
+.news__more {
+  margin-top: 0.2em;
+
+  summary {
+    cursor: pointer;
+    font-size: 0.75em;
+    color: $gray;
+
+    &:hover {
+      color: $link-color;
+    }
+  }
 }

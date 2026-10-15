@@ -1,26 +1,35 @@
-# News items shown on the homepage, newest first.
-#   date:  shown as-is (e.g. "Oct 2026")
-#   text:  one line; Markdown allowed (links, **bold**, etc.)
-#   link:  optional URL; link_text is the label shown after the text
-#   image: optional photo under the item, e.g. /images/news/wicarch-meetup.jpg
+# News items shown on the homepage, newest first. Keep each to one short line.
+#   date:  shown after the text, muted (e.g. "Oct 2026")
+#   text:  Markdown allowed (links, **bold**, etc.)
+#   type:  picks the icon when there is no image:
+#          award | talk | paper | internship | service | event
+#   image: optional photo, shown as the thumbnail instead of the icon
+#          (click opens it full size), e.g. /images/news/wicarch-meetup.jpg
+#   link:  optional URL (e.g. LinkedIn post), shown as a small icon after the text
+# Only the first few items show by default; the rest go under "More news".
 
 - date: "Sep 2026"
-  text: "Recognized by the **Semiconductor Research Corporation (SRC)** through its Student Spotlight."
+  type: award
+  text: "Featured in the **SRC Student Spotlight**."
   # link: ""   # TODO: LinkedIn post URL
-  # link_text: "LinkedIn"
 
 - date: "Aug 2026"
+  type: event
   text: "Organized the **WiCArch Bay Area meetup**."
-  # image: ""  # TODO: meetup photo
+  # image: ""  # TODO: meetup photo, e.g. /images/news/wicarch-meetup.jpg
 
 - date: "Aug 2026"
-  text: "Wrapped up my research internship at **Samsung Semiconductor**; my project won *Most Memorable Internship Project* at the Intern Showcase."
+  type: internship
+  text: "Wrapped up my **Samsung Semiconductor** internship; project won *Most Memorable Internship Project*."
 
 - date: "2026"
-  text: "Presented *Reimagining LLM Inference with Memory-Centric Servers* at the **ORNL Core Universities AI Workshop**."
+  type: talk
+  text: "Talk at the **ORNL Core Universities AI Workshop**: *Reimagining LLM Inference with Memory-Centric Servers*."
 
 - date: "2026"
-  text: "Presented *HARMONI: Hierarchical Architecture Modeling for LLMs with Near/In Memory Computing* at **ISPASS 2026**."
+  type: paper
+  text: "Presented [**HARMONI**](/publication/HARMONI) at **ISPASS 2026**."
 
 - date: "2025"
-  text: "Joined the **CASA** steering committee, leading the Computer Architecture Long-term Mentorship (**CALM**) program."
+  type: service
+  text: "Joined the **CASA** steering committee to lead the **CALM** mentorship program."
