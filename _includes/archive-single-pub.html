@@ -1,29 +1,34 @@
 {% include base_path %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+{% assign authors = post.authors | replace: "Khyati Kiyawat", "<strong>Khyati Kiyawat</strong>" | replace: "K. Kiyawat", "<strong>K. Kiyawat</strong>" %}
 
-    <h3 class="archive__item-title" itemprop="headline">
+<div class="pub">
+  <div class="pub__figure">
+    {% if post.image %}
+      <img src="{{ base_path }}{{ post.image }}" alt="Main figure from {{ post.title | escape }}" loading="lazy">
+    {% endif %}
+  </div>
+
+  <div class="pub__body">
+    <span class="pub__title">{{ post.title }}</span>
+
+    {% if authors %}
+      <span class="pub__authors">{{ authors }}</span>
+    {% endif %}
+
+    {% assign year = post.date | default: "1900-01-01" | date: "%Y" %}
+    <span class="pub__venue">{{ post.venue }}{% unless post.venue contains year %}, {{ year }}{% endunless %}</span>
+
+    <span class="pub__links">
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+        <a class="pub__btn" href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">PDF</a>
       {% endif %}
-    </h3>
-
-    {% if post.authors %}
-      <p class="archive__item-authors">{{ post.authors }}</p>
-    {% endif %}
-
-    <p class="archive__item-venue"><em>{{ post.venue }}</em>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-
-    {% if post.excerpt %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-    {% endif %}
-
-    {% if post.paperurl %}
-      <p><a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">Paper link</a></p>
-    {% endif %}
-
-  </article>
+      {% if post.slidesurl %}
+        <a class="pub__btn" href="{{ post.slidesurl }}" target="_blank" rel="noopener noreferrer">Slides</a>
+      {% endif %}
+      {% if post.codeurl %}
+        <a class="pub__btn" href="{{ post.codeurl }}" target="_blank" rel="noopener noreferrer">Code</a>
+      {% endif %}
+    </span>
+  </div>
 </div>

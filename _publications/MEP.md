@@ -5,6 +5,7 @@ permalink: /publication/MEP
 excerpt: 'A real-time minimum energy point (MEP) tracking method based on a predetermined, per-chip linear MEP-curve model, avoiding costly runtime power measurement.'
 date: 2020-07-06
 venue: 'ISVLSI'
+image: '/images/publications/mep.png'
 paperurl: 'https://ieeexplore.ieee.org/document/9155057'
 authors: 'K. Kiyawat, Y. Masuda, J. Shiomi, T. Ishihara'
 citation: 'K. Kiyawat, Y. Masuda, J. Shiomi and T. Ishihara, "Real-Time Minimum Energy Point Tracking Using a Predetermined Optimal Voltage Setting Strategy", 2020 IEEE Computer Society Annual Symposium on VLSI (ISVLSI), pp. 415-421, 2020.'
