@@ -348,3 +348,51 @@
     background: $link-color;
   }
 }
+
+/*
+   Homepage news list
+   ========================================================================== */
+
+.news {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news__item {
+  display: flex;
+  gap: 1em;
+  padding: 0.45em 0;
+  border-bottom: 1px solid $border-color;
+  font-size: 0.9em;
+  line-height: 1.45;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  @media (max-width: $small) {
+    flex-direction: column;
+    gap: 0.1em;
+  }
+}
+
+.news__date {
+  flex: 0 0 6.5em;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.news__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.news__image {
+  display: block;
+  max-width: 100%;
+  max-height: 220px;
+  width: auto;
+  margin-top: 0.5em;
+  border-radius: 4px;
+}

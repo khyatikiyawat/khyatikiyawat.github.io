@@ -1,0 +1,28 @@
+# News items shown on the homepage, newest first.
+#   date:  shown as-is (e.g. "Oct 2026")
+#   text:  one line; Markdown allowed (links, **bold**, etc.)
+#   link:  optional URL; link_text is the label shown after the text
+#   image: optional photo under the item, e.g. /images/news/wicarch-meetup.jpg
+#
+# TODO: replace the [placeholders] below with real dates, venues and links.
+
+- date: "[Mon 2026]"
+  text: "Recognized by the **Semiconductor Research Corporation (SRC)** in its Student Spotlight."
+  link: "[LinkedIn post URL]"
+  link_text: "LinkedIn"
+
+- date: "Aug 2026"
+  text: "Wrapped up my research internship at **Samsung Semiconductor** (Memory Solutions Lab), where my project received the *Most Memorable Internship Project* recognition."
+
+- date: "[Mon 2026]"
+  text: "Presented at the **ORNL AI Core University Workshop** on [talk topic]."
+
+- date: "[Mon 2026]"
+  text: "Presented [paper/poster title] at **ISPASS 2026**."
+
+- date: "[Mon 2026]"
+  text: "Hosted the **WiCArch** (Women in Computer Architecture) meetup at [venue]."
+  # image: /images/news/wicarch-meetup.jpg
+
+- date: "[Mon 2026]"
+  text: "Organizing **CASA CALM** [workshop/event details]."

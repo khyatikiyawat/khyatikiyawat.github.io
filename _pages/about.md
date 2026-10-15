@@ -8,6 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student advised by Prof. Kevin Skadron at the Computer Science Department, University of Virginia. My research focuses on designing and analyzing Processing-in-Memory (PIM) and Processing-near-Memory (PNM) architectures to deliver energy-efficient solutions for GenAI inference workloads.
+I am a PhD student advised by Prof. Kevin Skadron at the Computer Science Department, University of Virginia. My research tackles the LLM inference memory bottleneck by pioneering chiplet-based PIM and computational CXL devices. By co-designing hardware accelerators and performance modeling frameworks, my work enables cost- and energy-efficient solutions for next-generation AI systems.
 
 You can find my CV [here](/files/Khyati_Kiyawat_UVA.pdf)
+
+## News
+
+{% include news.html %}
