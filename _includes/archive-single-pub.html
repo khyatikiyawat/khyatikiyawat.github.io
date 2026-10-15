@@ -3,11 +3,13 @@
 {% assign authors = post.authors | replace: "Khyati Kiyawat", "<strong>Khyati Kiyawat</strong>" | replace: "K. Kiyawat", "<strong>K. Kiyawat</strong>" %}
 
 <div class="pub">
-  <div class="pub__figure">
-    {% if post.image %}
+  {% if post.image %}
+    <div class="pub__figure">
       <img src="{{ base_path }}{{ post.image }}" alt="Main figure from {{ post.title | escape }}" loading="lazy">
-    {% endif %}
-  </div>
+    </div>
+  {% else %}
+    <div class="pub__figure pub__placeholder">{{ post.venue | split: " " | first }}</div>
+  {% endif %}
 
   <div class="pub__body">
     <span class="pub__title">{{ post.title }}</span>
