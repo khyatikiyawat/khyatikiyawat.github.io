@@ -6,6 +6,7 @@ excerpt: 'A framework for architectural modeling and benchmarking of digital DRA
 date: 2024-11-01
 venue: 'IISWC 2024'
 paperurl: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10763591'
+codeurl: 'https://github.com/UVA-LavaLab/PIMeval-PIMbench'
 authors: 'F. Siddique, D. Guo, Z. Fan, M. Gholamrezaei, M. Baradaran, A. Ahmed, H. Abbot, K. Durrer, K. Nandagopal, E. Ermovick, K. Kiyawat, B. Gul, A. Mughrabi, A. Venkat, K. Skadron'
 citation: 'F. Siddique, D. Guo, Z. Fan, M. Gholamrezaei, M. Baradaran, A. Ahmed, H. Abbot, K. Durrer, K. Nandagopal, E. Ermovick, K. Kiyawat, B. Gul, A. Mughrabi, A. Venkat, K. Skadron. "Architectural Modeling and Benchmarking for Digital DRAM PIM." IISWC, 2024.'
 ---
