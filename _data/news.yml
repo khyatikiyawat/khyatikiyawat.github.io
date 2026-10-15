@@ -11,24 +11,25 @@
 - date: "Sep 2026"
   type: award
   text: "Featured in the **SRC Student Spotlight**."
-  # link: ""   # TODO: LinkedIn post URL
+  link: "https://lnkd.in/p/eR6KVqY2"
+
+- date: "Sep 2026"
+  type: talk
+  text: "Presented *Reimagining LLM Inference with Memory-Centric Servers* at the **ORNL Core Universities AI Workshop**."
 
 - date: "Aug 2026"
   type: event
-  text: "Organized the **WiCArch Bay Area meetup**."
+  text: "Organized the **WiCArch meetup** in the Bay Area."
   # image: ""  # TODO: meetup photo, e.g. /images/news/wicarch-meetup.jpg
 
 - date: "Aug 2026"
   type: internship
-  text: "Wrapped up my **Samsung Semiconductor** internship; project won *Most Memorable Internship Project*."
+  text: "Recognized for the *Most Memorable Internship Project* at the **Samsung Semiconductor** Intern Showcase."
+  link: "https://lnkd.in/p/e4qtWf2R"
 
-- date: "2026"
-  type: talk
-  text: "Talk at the **ORNL Core Universities AI Workshop**: *Reimagining LLM Inference with Memory-Centric Servers*."
-
-- date: "2026"
+- date: "Apr 2026"
   type: paper
-  text: "Presented [**HARMONI**](/publication/HARMONI) at **ISPASS 2026**."
+  text: "Presented [**HARMONI**](/publication/HARMONI) at **ISPASS 2026** in Seoul, South Korea."
 
 - date: "2025"
   type: service
