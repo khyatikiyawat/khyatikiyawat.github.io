@@ -8,6 +8,10 @@
 #   link:  optional URL (e.g. LinkedIn post), shown as a small icon after the text
 # Only the first few items show by default; the rest go under "More news".
 
+- date: "Nov 2026"
+  type: award
+  text: "Best Poster Award at PRISM Annual Review for Next-Generation Architectures."
+
 - date: "Sep 2026"
   type: award
   text: "Featured in the **SRC Student Spotlight**."
